@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <div className="w-full bg-[#1d4ed8] py-2 text-white flex justify-center items-center gap-2 text-sm font-medium">
       <span role="img" aria-label="bell">🔔</span>
-      <span className="tracking-wide uppercase">The website is for sale</span>
+      <span className="tracking-wide uppercase">The website is for sale Contact me on whatsapp</span>
       <span role="img" aria-label="bell">🔔</span>
     </div>
   );
