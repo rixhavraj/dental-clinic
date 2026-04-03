@@ -15,9 +15,20 @@ const Navbar = () => {
   ];
 
   const isActive = (path) => location.pathname === path;
+  
+  const AnnouncementBar = () => {
+  return (
+    <div className="w-full bg-[#1d4ed8] py-2 text-white flex justify-center items-center gap-2 text-sm font-medium">
+      <span role="img" aria-label="bell">🔔</span>
+      <span className="tracking-wide uppercase">The website is for sale</span>
+      <span role="img" aria-label="bell">🔔</span>
+    </div>
+  );
+};
 
   return (
     <nav className="bg-white/90 backdrop-blur-md shadow-sm fixed w-full z-50 top-0 left-0 transition-all duration-300">
+      <AnnouncementBar/>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <Link to="/" className="flex items-center gap-2">

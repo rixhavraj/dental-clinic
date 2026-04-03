@@ -10,12 +10,13 @@ import Appointment from './pages/Appointment';
 import Admin from './pages/Admin';
 import WhatsAppButton from './components/WhatsAppButton';
 
+
 function App() {
   return (
     <Router>
       <div className="flex flex-col min-h-screen">
         <Navbar />
-        <main className="flex-grow pt-20"> {/* PT-20 for fixed navbar */}
+        <main className="grow pt-20"> {/* PT-20 for fixed navbar */}
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />

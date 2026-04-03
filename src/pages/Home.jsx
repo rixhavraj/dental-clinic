@@ -10,6 +10,7 @@ const Home = () => {
     viewport: { once: true },
     transition: { duration: 0.6 }
   };
+  
 
   return (
     <div className="w-full">
